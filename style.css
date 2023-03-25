@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1640px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: aqua;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.wrap__item {
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 22px;
+}
