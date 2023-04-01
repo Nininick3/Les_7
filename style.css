@@ -26,3 +26,51 @@ nav {
     color: aquamarine;
     font-size: 22px;
 }
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.main {
+    background-color: crimson;
+}
+
+.product {
+    background-color: coral;
+}
+.box {
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.img {
+    width: 50%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: gold;
+}
+
+footer .box {
+    padding: 1%;
+}
+
+.logo {
+    width: 10%;
+}
+
